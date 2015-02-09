@@ -13,3 +13,6 @@ suites:
   - name: default
     run_list:
     attributes:
+  - name: reboot
+    run_list:
+      - recipe[sysadmin::reboot]
